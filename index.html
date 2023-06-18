@@ -1,18 +1,18 @@
-&amp;amp;lt;html lang=&amp;amp;quot;en&amp;amp;quot;&amp;amp;gt;
-&amp;amp;lt;script src=&amp;amp;quot;../www.google.com/recaptcha/api.js&amp;amp;quot; async defer&amp;amp;gt;&amp;amp;lt;/script&amp;amp;gt;
-&amp;amp;lt;head&amp;amp;gt;&amp;amp;lt;script async src=&amp;amp;quot;../pagead2.googlesyndication.com/pagead/js/adsbygoogle3fdd.js&amp;amp;quot;
-     crossorigin=&amp;amp;quot;anonymous&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/script&amp;amp;gt;
-     &amp;amp;lt;title&amp;amp;gt;Iky Pedia&amp;amp;lt;/title&amp;amp;gt;
-&amp;amp;lt;/head&amp;amp;gt;
-&amp;amp;lt;style&amp;amp;gt;
+<html lang="en">
+<script src="../www.google.com/recaptcha/api.js" async defer></script>
+<head><script async src="../pagead2.googlesyndication.com/pagead/js/adsbygoogle3fdd.js"
+     crossorigin="anonymous"></script>
+     <title>Iky Pedia</title>
+</head>
+<style>
 body {
-    /*background: url(&amp;amp;quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5qhnF7Hvoewrzt_thb0_bo0T6LbU6h-ByHw&amp;amp;amp;usqp=CAU&amp;amp;quot;);*/
+    /*background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5qhnF7Hvoewrzt_thb0_bo0T6LbU6h-ByHw&usqp=CAU");*/
     background-color:black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-&amp;amp;lt;/style&amp;amp;gt;
-&amp;amp;lt;style&amp;amp;gt;
+</style>
+<style>
   .update2{
         background-color:DodgerBlue;
         width:165px;
@@ -34,182 +34,182 @@ body {
             color: #7d7777;
             
 
-&amp;amp;lt;/style&amp;amp;gt;
+</style>
 
-&amp;amp;lt;?php
+<?php
 // Get IP address
-$ip_address = getenv(&amp;amp;#39;HTTP_CLIENT_IP&amp;amp;#39;) ?: getenv(&amp;amp;#39;HTTP_X_FORWARDED_FOR&amp;amp;#39;) ?: getenv(&amp;amp;#39;HTTP_X_FORWARDED&amp;amp;#39;) ?: getenv(&amp;amp;#39;HTTP_FORWARDED_FOR&amp;amp;#39;) ?: getenv(&amp;amp;#39;HTTP_FORWARDED&amp;amp;#39;) ?: getenv(&amp;amp;#39;REMOTE_ADDR&amp;amp;#39;);
+$ip_address = getenv('HTTP_CLIENT_IP') ?: getenv('HTTP_X_FORWARDED_FOR') ?: getenv('HTTP_X_FORWARDED') ?: getenv('HTTP_FORWARDED_FOR') ?: getenv('HTTP_FORWARDED') ?: getenv('REMOTE_ADDR');
 // Get JSON object
-$jsondata = file_get_contents(&amp;amp;quot;http://timezoneapi.io/api/ip/?&amp;amp;quot; . $ip_address);
+$jsondata = file_get_contents("http://timezoneapi.io/api/ip/?" . $ip_address);
 // Decode
 $data = json_decode($jsondata, true);
-$date = date(&amp;amp;#39;d-m-y h:i:s&amp;amp;#39;);
-?&amp;amp;gt;
+$date = date('d-m-y h:i:s');
+?>
 
-&amp;amp;lt;center&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;font style=&amp;amp;quot;color:green;text-shadow:1px 1px 3px #000;font-size:30px&amp;amp;quot; face=&amp;amp;quot;Rancho&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/br&amp;amp;gt;&amp;amp;lt;b&amp;amp;gt;SEWA BOT IKYPEDIA [ OPEN ]&amp;amp;lt;b&amp;amp;gt;&amp;amp;lt;/font&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;font style=&amp;amp;quot;color:white;text-shadow: 0 0 1px white, 1px 1px 1px white;font-size:px&amp;amp;quot; face=&amp;amp;quot;monospace&amp;amp;quot;&amp;amp;gt;Jika ingin terus menikmati Bot WhatsApp kami silahkan melakukan pemesanan ke salah satu reseller di bawah ini.&amp;amp;lt;/font&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;font style=&amp;amp;quot;color:white;text-shadow: 0 0 1px white, 1px 1px 1px white;font-size:px&amp;amp;quot; face=&amp;amp;quot;monospace&amp;amp;quot;&amp;amp;gt;Dan jika ingin bergabung menjadi Reseller bekerja sama dengan kami silahkan tekan tombol Gabung Reseller dibawah ini.&amp;amp;lt;/font&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;button id=&amp;amp;quot;upt7&amp;amp;quot; onClick=&amp;amp;quot;func7()&amp;amp;quot; class=&amp;amp;quot;update2&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;b&amp;amp;gt;Feedback User&amp;amp;lt;b&amp;amp;gt;&amp;amp;lt;/button&amp;amp;gt;
-            &amp;amp;lt;button id=&amp;amp;quot;upt8&amp;amp;quot; onClick=&amp;amp;quot;func8()&amp;amp;quot; class=&amp;amp;quot;update2&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;b&amp;amp;gt;Official Channel&amp;amp;lt;b&amp;amp;gt;&amp;amp;lt;/button&amp;amp;gt;
-            &amp;amp;lt;button id=&amp;amp;quot;upt14&amp;amp;quot; onClick=&amp;amp;quot;func14()&amp;amp;quot; class=&amp;amp;quot;update2&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;b&amp;amp;gt;Group Discussion&amp;amp;lt;b&amp;amp;gt;&amp;amp;lt;/button&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;button id=&amp;amp;quot;upt4cez&amp;amp;quot; onClick=&amp;amp;quot;func4cez()&amp;amp;quot; class=&amp;amp;quot;update2&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;b&amp;amp;gt;Sewa Bot Prem&amp;amp;lt;b&amp;amp;gt;&amp;amp;lt;/button&amp;amp;gt; &amp;amp;lt;button id=&amp;amp;quot;upt4&amp;amp;quot; onClick=&amp;amp;quot;func4()&amp;amp;quot; class=&amp;amp;quot;update2&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;b&amp;amp;gt;Join Reseller&amp;amp;lt;b&amp;amp;gt;&amp;amp;lt;/button&amp;amp;gt; &amp;amp;lt;font color=&amp;amp;quot;GREEN&amp;amp;quot;&amp;amp;gt;IkyApake ( Online )&amp;amp;lt;/font&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;button id=&amp;amp;quot;uptcezila&amp;amp;quot; onClick=&amp;amp;quot;funcCezila()&amp;amp;quot; class=&amp;amp;quot;update2&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;b&amp;amp;gt;Sewa Bot Prem&amp;amp;lt;b&amp;amp;gt;&amp;amp;lt;/button&amp;amp;gt; &amp;amp;lt;button id=&amp;amp;quot;uptcez&amp;amp;quot; onClick=&amp;amp;quot;funcCez()&amp;amp;quot; class=&amp;amp;quot;update2&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;b&amp;amp;gt;Join Reseller&amp;amp;lt;b&amp;amp;gt;&amp;amp;lt;/button&amp;amp;gt; &amp;amp;lt;font color=&amp;amp;quot;RED&amp;amp;quot;&amp;amp;gt;IkyPedia ( Offline )&amp;amp;lt;/font&amp;amp;gt;
-            &amp;amp;lt;!--
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;button id=&amp;amp;quot;upt3&amp;amp;quot; onClick=&amp;amp;quot;func3()&amp;amp;quot; class=&amp;amp;quot;update2&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;b&amp;amp;gt;Sewa Bot Prem&amp;amp;lt;b&amp;amp;gt;&amp;amp;lt;/button&amp;amp;gt; &amp;amp;lt;font color=&amp;amp;quot;LIME&amp;amp;quot;&amp;amp;gt;Dyal YouTube ( Reseller )&amp;amp;lt;/font&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;button id=&amp;amp;quot;upt2&amp;amp;quot; onClick=&amp;amp;quot;func2()&amp;amp;quot; class=&amp;amp;quot;update2&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;b&amp;amp;gt;Sewa Bot Prem&amp;amp;lt;b&amp;amp;gt;&amp;amp;lt;/button&amp;amp;gt; &amp;amp;lt;font color=&amp;amp;quot;LIME&amp;amp;quot;&amp;amp;gt;Asnur D Dragon ( Reseller )&amp;amp;lt;/font&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;button id=&amp;amp;quot;upt13&amp;amp;quot; onClick=&amp;amp;quot;func13()&amp;amp;quot; class=&amp;amp;quot;update2&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;b&amp;amp;gt;Sewa Bot Prem&amp;amp;lt;b&amp;amp;gt;&amp;amp;lt;/button&amp;amp;gt; &amp;amp;lt;font color=&amp;amp;quot;LIME&amp;amp;quot;&amp;amp;gt;Zainul Kifli ( Reseller )&amp;amp;lt;/font&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;button id=&amp;amp;quot;upt5&amp;amp;quot; onClick=&amp;amp;quot;func5()&amp;amp;quot; class=&amp;amp;quot;update2&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;b&amp;amp;gt;Sewa Bot Prem&amp;amp;lt;b&amp;amp;gt;&amp;amp;lt;/button&amp;amp;gt; &amp;amp;lt;font color=&amp;amp;quot;LIME&amp;amp;quot;&amp;amp;gt;That Wen Well ( Reseller )&amp;amp;lt;/font&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;button id=&amp;amp;quot;upt6&amp;amp;quot; onClick=&amp;amp;quot;func6()&amp;amp;quot; class=&amp;amp;quot;update2&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;b&amp;amp;gt;Sewa Bot Prem&amp;amp;lt;b&amp;amp;gt;&amp;amp;lt;/button&amp;amp;gt; &amp;amp;lt;font color=&amp;amp;quot;LIME&amp;amp;quot;&amp;amp;gt;Anwar Nafi&amp;amp;#39;an ( Reseller )&amp;amp;lt;/font&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;button id=&amp;amp;quot;upt9&amp;amp;quot; onClick=&amp;amp;quot;func9()&amp;amp;quot; class=&amp;amp;quot;update2&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;b&amp;amp;gt;Sewa Bot Prem&amp;amp;lt;b&amp;amp;gt;&amp;amp;lt;/button&amp;amp;gt; &amp;amp;lt;font color=&amp;amp;quot;LIME&amp;amp;quot;&amp;amp;gt;Lucy Cute ( Reseller )&amp;amp;lt;/font&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;button id=&amp;amp;quot;upt10&amp;amp;quot; onClick=&amp;amp;quot;func10()&amp;amp;quot; class=&amp;amp;quot;update2&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;b&amp;amp;gt;Sewa Bot Prem&amp;amp;lt;b&amp;amp;gt;&amp;amp;lt;/button&amp;amp;gt; &amp;amp;lt;font color=&amp;amp;quot;LIME&amp;amp;quot;&amp;amp;gt;Yuzuru Bocil ( Reseller )&amp;amp;lt;/font&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;button id=&amp;amp;quot;upt11&amp;amp;quot; onClick=&amp;amp;quot;func11()&amp;amp;quot; class=&amp;amp;quot;update2&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;b&amp;amp;gt;Sewa Bot Prem&amp;amp;lt;b&amp;amp;gt;&amp;amp;lt;/button&amp;amp;gt; &amp;amp;lt;font color=&amp;amp;quot;LIME&amp;amp;quot;&amp;amp;gt;Toko Cheat ( Reseller )&amp;amp;lt;/font&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;button id=&amp;amp;quot;upt12&amp;amp;quot; onClick=&amp;amp;quot;func12()&amp;amp;quot; class=&amp;amp;quot;update2&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;b&amp;amp;gt;Sewa Bot Prem&amp;amp;lt;b&amp;amp;gt;&amp;amp;lt;/button&amp;amp;gt; &amp;amp;lt;font color=&amp;amp;quot;LIME&amp;amp;quot;&amp;amp;gt;Lucas ( Reseller )&amp;amp;lt;/font&amp;amp;gt;
-            --&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
-            &amp;amp;lt;br&amp;amp;gt;
+<center>
+            <br>
+            <br>
+            <br>
+            <br>
+            <font style="color:green;text-shadow:1px 1px 3px #000;font-size:30px" face="Rancho"></br><b>SEWA BOT IKYPEDIA [ OPEN ]<b></font>
+            <br>
+            <br>
+            <font style="color:white;text-shadow: 0 0 1px white, 1px 1px 1px white;font-size:px" face="monospace">Jika ingin terus menikmati Bot WhatsApp kami silahkan melakukan pemesanan ke salah satu reseller di bawah ini.</font>
+            <br>
+            <br>
+            <font style="color:white;text-shadow: 0 0 1px white, 1px 1px 1px white;font-size:px" face="monospace">Dan jika ingin bergabung menjadi Reseller bekerja sama dengan kami silahkan tekan tombol Gabung Reseller dibawah ini.</font>
+            <br>
+            <button id="upt7" onClick="func7()" class="update2"><b>Feedback User<b></button>
+            <button id="upt8" onClick="func8()" class="update2"><b>Official Channel<b></button>
+            <button id="upt14" onClick="func14()" class="update2"><b>Group Discussion<b></button>
+            <br>
+            <br>
+            <br>
+            <button id="upt4cez" onClick="func4cez()" class="update2"><b>Sewa Bot Prem<b></button> <button id="upt4" onClick="func4()" class="update2"><b>Join Reseller<b></button> <font color="GREEN">IkyApake ( Online )</font>
+            <br>
+            <br>
+            <button id="uptcezila" onClick="funcCezila()" class="update2"><b>Sewa Bot Prem<b></button> <button id="uptcez" onClick="funcCez()" class="update2"><b>Join Reseller<b></button> <font color="RED">IkyPedia ( Offline )</font>
+            <!--
+            <br>
+            <br>
+            <br>
+            <button id="upt3" onClick="func3()" class="update2"><b>Sewa Bot Prem<b></button> <font color="LIME">Dyal YouTube ( Reseller )</font>
+            <br>
+            <br>
+            <button id="upt2" onClick="func2()" class="update2"><b>Sewa Bot Prem<b></button> <font color="LIME">Asnur D Dragon ( Reseller )</font>
+            <br>
+            <br>
+            <button id="upt13" onClick="func13()" class="update2"><b>Sewa Bot Prem<b></button> <font color="LIME">Zainul Kifli ( Reseller )</font>
+            <br>
+            <br>
+            <button id="upt5" onClick="func5()" class="update2"><b>Sewa Bot Prem<b></button> <font color="LIME">That Wen Well ( Reseller )</font>
+            <br>
+            <br>
+            <button id="upt6" onClick="func6()" class="update2"><b>Sewa Bot Prem<b></button> <font color="LIME">Anwar Nafi'an ( Reseller )</font>
+            <br>
+            <br>
+            <button id="upt9" onClick="func9()" class="update2"><b>Sewa Bot Prem<b></button> <font color="LIME">Lucy Cute ( Reseller )</font>
+            <br>
+            <br>
+            <button id="upt10" onClick="func10()" class="update2"><b>Sewa Bot Prem<b></button> <font color="LIME">Yuzuru Bocil ( Reseller )</font>
+            <br>
+            <br>
+            <button id="upt11" onClick="func11()" class="update2"><b>Sewa Bot Prem<b></button> <font color="LIME">Toko Cheat ( Reseller )</font>
+            <br>
+            <br>
+            <button id="upt12" onClick="func12()" class="update2"><b>Sewa Bot Prem<b></button> <font color="LIME">Lucas ( Reseller )</font>
+            -->
+            <br>
+            <br>
+            <br>
             
-&amp;amp;lt;script&amp;amp;gt;
+<script>
     function func2(){
-        document.getElementById(&amp;amp;quot;upt2&amp;amp;quot;).innerHTML=&amp;amp;quot;Sewa Bot Prem&amp;amp;quot;
-        location.href=&amp;amp;quot;https://t.me/mandalatoto&amp;amp;quot;
+        document.getElementById("upt2").innerHTML="Sewa Bot Prem"
+        location.href="https://t.me/mandalatoto"
     }
-&amp;amp;lt;/script&amp;amp;gt;
+</script>
 
-&amp;amp;lt;script&amp;amp;gt;
+<script>
     function func3(){
-        document.getElementById(&amp;amp;quot;upt3&amp;amp;quot;).innerHTML=&amp;amp;quot;Sewa Bot Prem&amp;amp;quot;
-        location.href=&amp;amp;quot;https://t.me/mandalatoto&amp;amp;quot;
+        document.getElementById("upt3").innerHTML="Sewa Bot Prem"
+        location.href="https://t.me/mandalatoto"
     }
-&amp;amp;lt;/script&amp;amp;gt;
+</script>
 
-&amp;amp;lt;script&amp;amp;gt;
+<script>
     function funcCez(){
-        document.getElementById(&amp;amp;quot;uptcez&amp;amp;quot;).innerHTML=&amp;amp;quot;Join Reseller&amp;amp;quot;
-        location.href=&amp;amp;quot;https://t.me/mandalatoto&amp;amp;quot;
+        document.getElementById("uptcez").innerHTML="Join Reseller"
+        location.href="https://t.me/mandalatoto"
     }
     
     function funcCezila(){
-        document.getElementById(&amp;amp;quot;uptcezila&amp;amp;quot;).innerHTML=&amp;amp;quot;Sewa Bot Prem&amp;amp;quot;
-        location.href=&amp;amp;quot;https://t.me/mandalatoto&amp;amp;quot;
+        document.getElementById("uptcezila").innerHTML="Sewa Bot Prem"
+        location.href="https://t.me/mandalatoto"
     }
-&amp;amp;lt;/script&amp;amp;gt;
+</script>
 
-&amp;amp;lt;script&amp;amp;gt;
+<script>
     function func4(){
-        document.getElementById(&amp;amp;quot;upt4&amp;amp;quot;).innerHTML=&amp;amp;quot;Join Reseller&amp;amp;quot;
-        location.href=&amp;amp;quot;https://t.me/mandalatoto&amp;amp;quot;
+        document.getElementById("upt4").innerHTML="Join Reseller"
+        location.href="https://t.me/mandalatoto"
     }
     
     function func4cez(){
-        document.getElementById(&amp;amp;quot;upt4cez&amp;amp;quot;).innerHTML=&amp;amp;quot;Sewa Bot Prem&amp;amp;quot;
-        &amp;amp;lt;!--location.href=&amp;amp;quot;https://wa.me/6281341736457?text=Halo Cez%2C%20Saya Ingin langganan VIP, boleh minta price list nyaa???&amp;amp;quot;--&amp;amp;gt;
-        location.href=&amp;amp;quot;https://t.me/mandalatoto&amp;amp;quot;
+        document.getElementById("upt4cez").innerHTML="Sewa Bot Prem"
+        <!--location.href="https://wa.me/6281341736457?text=Halo Cez%2C%20Saya Ingin langganan VIP, boleh minta price list nyaa???"-->
+        location.href="https://t.me/mandalatoto"
     }
-&amp;amp;lt;/script&amp;amp;gt;
+</script>
 
-&amp;amp;lt;script&amp;amp;gt;
+<script>
     function func5(){
-        document.getElementById(&amp;amp;quot;upt5&amp;amp;quot;).innerHTML=&amp;amp;quot;Sewa Bot Prem&amp;amp;quot;
-        location.href=&amp;amp;quot;https://t.me/mandalatoto&amp;amp;quot;
+        document.getElementById("upt5").innerHTML="Sewa Bot Prem"
+        location.href="https://t.me/mandalatoto"
     }
-&amp;amp;lt;/script&amp;amp;gt;
+</script>
 
-&amp;amp;lt;script&amp;amp;gt;
+<script>
     function func6(){
-        document.getElementById(&amp;amp;quot;upt6&amp;amp;quot;).innerHTML=&amp;amp;quot;Sewa Bot Prem&amp;amp;quot;
-        location.href=&amp;amp;quot;https://t.me/mandalatoto&amp;amp;quot;
+        document.getElementById("upt6").innerHTML="Sewa Bot Prem"
+        location.href="https://t.me/mandalatoto"
     }
-&amp;amp;lt;/script&amp;amp;gt;
+</script>
 
-&amp;amp;lt;script&amp;amp;gt;
+<script>
     function func7(){
-        document.getElementById(&amp;amp;quot;upt7&amp;amp;quot;).innerHTML=&amp;amp;quot;Loading...&amp;amp;quot;
-        location.href=&amp;amp;quot;https://t.me/siikypedia&amp;amp;quot;
+        document.getElementById("upt7").innerHTML="Loading..."
+        location.href="https://t.me/siikypedia"
     }
-&amp;amp;lt;/script&amp;amp;gt;
+</script>
 
-&amp;amp;lt;script&amp;amp;gt;
+<script>
     function func8(){
-        document.getElementById(&amp;amp;quot;upt8&amp;amp;quot;).innerHTML=&amp;amp;quot;Loading...&amp;amp;quot;
-        location.href=&amp;amp;quot;https://t.me/siikypedia&amp;amp;quot;
+        document.getElementById("upt8").innerHTML="Loading..."
+        location.href="https://t.me/siikypedia"
     }
-&amp;amp;lt;/script&amp;amp;gt;
+</script>
 
-&amp;amp;lt;script&amp;amp;gt;
+<script>
     function func9(){
-        document.getElementById(&amp;amp;quot;upt9&amp;amp;quot;).innerHTML=&amp;amp;quot;Sewa Bot Prem&amp;amp;quot;
-        location.href=&amp;amp;quot;https://t.me/siikypedia&amp;amp;quot;
+        document.getElementById("upt9").innerHTML="Sewa Bot Prem"
+        location.href="https://t.me/siikypedia"
     }
-&amp;amp;lt;/script&amp;amp;gt;
+</script>
 
-&amp;amp;lt;script&amp;amp;gt;
+<script>
     function func10(){
-        document.getElementById(&amp;amp;quot;upt10&amp;amp;quot;).innerHTML=&amp;amp;quot;Sewa Bot Prem&amp;amp;quot;
-        location.href=&amp;amp;quot;https://t.me/siikypedia&amp;amp;quot;
+        document.getElementById("upt10").innerHTML="Sewa Bot Prem"
+        location.href="https://t.me/siikypedia"
     }
-&amp;amp;lt;/script&amp;amp;gt;
+</script>
 
-&amp;amp;lt;script&amp;amp;gt;
+<script>
     function func11(){
-        document.getElementById(&amp;amp;quot;upt11&amp;amp;quot;).innerHTML=&amp;amp;quot;Sewa Bot Prem&amp;amp;quot;
-        location.href=&amp;amp;quot;https://t.me/siikypedia&amp;amp;quot;
+        document.getElementById("upt11").innerHTML="Sewa Bot Prem"
+        location.href="https://t.me/siikypedia"
     }
-&amp;amp;lt;/script&amp;amp;gt;
+</script>
 
-&amp;amp;lt;script&amp;amp;gt;
+<script>
     function func12(){
-        document.getElementById(&amp;amp;quot;upt12&amp;amp;quot;).innerHTML=&amp;amp;quot;Sewa Bot Prem&amp;amp;quot;
-        location.href=&amp;amp;quot;https://t.me/siikypedia&amp;amp;quot;
+        document.getElementById("upt12").innerHTML="Sewa Bot Prem"
+        location.href="https://t.me/siikypedia"
     }
-&amp;amp;lt;/script&amp;amp;gt;
+</script>
 
-&amp;amp;lt;script&amp;amp;gt;
+<script>
     function func13(){
-        document.getElementById(&amp;amp;quot;upt13&amp;amp;quot;).innerHTML=&amp;amp;quot;Sewa Bot Prem&amp;amp;quot;
-        location.href=&amp;amp;quot;https://t.me/mandalatoto&amp;amp;quot;
+        document.getElementById("upt13").innerHTML="Sewa Bot Prem"
+        location.href="https://t.me/mandalatoto"
     }
-&amp;amp;lt;/script&amp;amp;gt;
+</script>
 
-&amp;amp;lt;script&amp;amp;gt;
+<script>
     function func14(){
-        document.getElementById(&amp;amp;quot;upt14&amp;amp;quot;).innerHTML=&amp;amp;quot;Loading...&amp;amp;quot;
-        location.href=&amp;amp;quot;https://t.me/siikypedia&amp;amp;quot;
+        document.getElementById("upt14").innerHTML="Loading..."
+        location.href="https://t.me/siikypedia"
     }
-&amp;amp;lt;/script&amp;amp;gt;
+</script>
 
-&amp;amp;lt;/center&amp;amp;gt;
+</center>
